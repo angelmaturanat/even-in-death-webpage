@@ -1,5 +1,5 @@
 import React from 'react';
-import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import SocialMediaItem from './SocialMediaItem';
 
 const SocialMediaLinks: React.FC = () => {
@@ -10,6 +10,7 @@ const SocialMediaLinks: React.FC = () => {
         <SocialMediaItem icon={faFacebookF} url={'https://www.facebook.com/evanescencechileoficial'} text={'Facebook'}></SocialMediaItem>
         <SocialMediaItem icon={faTwitter} url={'https://twitter.com/Evan_Chile'} text={'Twitter'}></SocialMediaItem>
         <SocialMediaItem icon={faInstagram} url={'https://www.instagram.com/evenindeathchile/'} text={'Instagram'}></SocialMediaItem>
+        <SocialMediaItem icon={faWhatsapp} url={'https://chat.whatsapp.com/L4NnVKNemE3FnVbV5kqoFv'} text={'Nuestro Whatsapp'}></SocialMediaItem>
       </ul>
     </div>
   );
