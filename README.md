@@ -1,5 +1,3 @@
-![CI](https://github.com/angelmaturanat/github_dashboard_api/actions/workflows/elixir.yml/badge.svg?branch=main)
-
 # Even in Death landing page
 This page was created to show links from social networks like "AllMyLinks" or "Linktree" pages, but with the possibility of adjusting styles and requirements of the fan club.
 
