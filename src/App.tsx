@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './styles/App.scss';
+import SocialMediaLinks from './components/SocialMediaLinks';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="app flex h-screen w-full items-center justify-center bg-gray-900 bg-cover bg-center">
+        <div className="rounded-xl bg-gray-800 bg-opacity-50 px-16 py-10 shadow-lg backdrop-blur-sm max-sm:px-8 drop-shadow-2xl">
+          <div className="text-white">
+            <div className="mb-8 flex flex-col items-center">
+              <h1 className="text-2xl mb-4">Even In Death</h1>
+            </div>
+            <div className='items-center'>
+              <SocialMediaLinks />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
