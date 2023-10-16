@@ -1,5 +1,5 @@
 import React from 'react';
-import { faFacebookF, faTwitter, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import SocialMediaItem from './SocialMediaItem';
 
 const SocialMediaLinks: React.FC = () => {
